@@ -15,12 +15,12 @@ export class SpotifyService {
       const tokenStr = '';
       const headersToken = new HttpHeaders({
         'grant_type' : 'client_credentials',
-        'client_id' : '77c374b4f21f4af094bde29b7d350c38',
-        'client_secret' : '9f77712849ae49c4bcaca56d002f041d'
+        'client_id' : '6ddbe2804ad14e1291ecf45f449021c5',
+        'client_secret' : '084737def766480fa0d11e6cd79ad28a'
       });
 
       const headers = new HttpHeaders({
-          'Authorization':'Bearer BQCuRtWV75w6bNo02G8Fq6kQMLIqQ8xmPq22YvAhrdZoX_uUYNIXe1NtPYTCa1Rh-zK-g5HOhffwPfRh7Lg'
+          'Authorization':'Bearer BQAaiySNyC25KdhhIMw4t5pb5yH6tH6xOLl2Q78jk3bi4iHaWbC8sY_M-5ad16RDld5ZTh6HvzrEZfeyyNW6EehGusKZuOsLVOc3aYTv43Q4lbkWjaAL'
         });
       const url = `https://api.spotify.com/v1/${query}`;
 
